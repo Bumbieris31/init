@@ -1,0 +1,1 @@
+host -a slash16.org | grep from | cut -d ' ' -f 5 | cut -d '#' -f 1

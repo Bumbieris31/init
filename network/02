@@ -1,0 +1,1 @@
+ping -c 2 `ifconfig en0 | grep broadcast | tail -c 14`> /dev/null && arp -a | cut -d ')' -f 1 | cut -d '(' -f 2 | grep 10.11
