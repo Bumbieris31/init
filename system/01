@@ -1,0 +1,2 @@
+In the folder holding system configuration files (/etc) there must (if the system is debian based) be file named debian_version.
+cat to see the contents.

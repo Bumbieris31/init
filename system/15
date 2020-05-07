@@ -1,0 +1,2 @@
+#Use ps command to find the PID that you want to terminate.
+kill <PID>
