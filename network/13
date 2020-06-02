@@ -1,2 +1,2 @@
-#nslookup `<output of exc. 12>`
-#output
+#nslookup `ifconfig en0 | grep 'inet ' | cut -d ' ' -f 2`
+8.3.10.10.in-addr.arpa	name = f0r3s8.codam.nl.
