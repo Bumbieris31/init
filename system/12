@@ -1,0 +1,2 @@
+#add s flag (summarize) to not go through directories recursively
+du -h /var/*

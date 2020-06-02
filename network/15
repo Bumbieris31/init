@@ -1,0 +1,2 @@
+To redirect the intra.42.fr to the given address you have to modify the hosts file found in /etc folder. There along with other IPv4 addresses add a new line like this:
+46.19.122.85 intra.42.fr

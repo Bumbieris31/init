@@ -1,0 +1,2 @@
+With the command whois look up the slash16.org domain name. The output should contain keywords Name Server which represent the provider of this domain name.
+whois slash16.org | grep 'Name Server' | cut -d ':' -f 2 | cut -d ' ' -f 2
