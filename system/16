@@ -1,0 +1,3 @@
+cron deamon is used to schedule tasks by writing appropriate time and
+commands in systems crontab files.
+To open crontab file use crontab -e
