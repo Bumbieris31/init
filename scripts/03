@@ -1,0 +1,25 @@
+file_count=&(ls -l | wc -l)
+
+train_part = file_count / 10 * 6
+valid_part = file_count / 10 * 2
+test_part = file_count / 10 * 2
+
+mkdir train;
+mkdir validation;
+mkdir test;
+
+# number all the files
+
+for ((i = 0; i < train_part; i++); do
+	mv i train
+done
+
+for ((i = 0; i < valid_part; i++); do
+	mv i validation
+done
+
+for ((i = 0; i < test_part; i++); do
+	mv i test
+done
+
+# 60/20/20 ratio.
