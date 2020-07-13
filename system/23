@@ -1,0 +1,2 @@
+For graphic session just log in with your username and password when required.
+For ssh session write 'ssh <user_name>@<ip_address>' and password when required.

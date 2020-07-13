@@ -1,2 +1,5 @@
 Check if after subnet mask ip addresses (yours and next local) are equal.
+In our case subnet mask is 255.255.0.0 and IP is 10.11.4.6 so everything starting with 10.11 is in the same subnet.
+
 Or check the router manually.
+In our case the router is 10.11.1.254.

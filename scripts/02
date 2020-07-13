@@ -1,4 +1,5 @@
-read -p 'Please, enter user you want to delete : ' username
+#!/bin/bash
+read -p 'User to delete: ' username
 
 entries=$(who -a | grep -v '^ ' | grep -c $username)
 
@@ -7,6 +8,6 @@ then
 	pkill -u $username
 	userdel $username
 	echo Username $username has been deleted
-	else
+else
 	echo Username $username was not found
 fi
